@@ -1,0 +1,354 @@
+/********************************************  compare table  ***************************************************************/
+
+header,
+.bg-grey,
+footer {
+    display: none;
+}
+
+
+
+
+.compareForm-background {
+    background-color: darkgray;
+}
+
+/*------------------------------------------------*/
+.compareForm {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Poppins';
+}
+
+/*------------------------------------------------*/
+.compareForm .container {
+    padding: 0;
+}
+
+/*------------------------------------------------*/
+.compareForm .container .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 4px;
+    margin: 0 4px;
+}
+
+.compareForm .container .header .header-top-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.compareForm .container .header .header-top-container .prhone-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.compareForm .container .header .header-top-container .prhone-container .phone-number {
+    display: flex;
+    flex-shrink: 0;
+    color: #1CA21C;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+
+.compareForm .container .header .header-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.compareForm .container .header .header-text-container .header-text-row {
+    color: #828282;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.compareForm .container .header .header-title {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/*------------------------------------------------*/
+.compareForm .container table {
+    width: calc(100% + 24px);
+    border-spacing: 12px 0;
+    border-collapse: separate;
+    margin-left: -12px;
+}
+
+.compareForm table:not(:last-of-type) {
+    padding-bottom: 16px;
+}
+
+.compareForm tr td:nth-child(even) {
+    background: var(--Brand-Light, #EDF8ED);
+}
+
+
+.compareForm td:nth-child(3) {
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+}
+
+.compareForm tr:nth-child(1) td:nth-child(3) {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: 1px solid #CACACA;
+}
+
+.compareForm tr:nth-last-child(1) td:nth-child(3) {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom: 1px solid #CACACA;
+}
+
+
+
+
+.compareForm table tr:first-of-type td {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 8px;
+}
+
+.compareForm table tr:last-of-type td {
+    padding-bottom: 12px;
+}
+
+.compareForm tr:nth-last-child(1) td:nth-child(even) {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.compareForm .paramName.borderTop,
+.paramValue.borderTop {
+    border-top: 1px solid #CACACA;
+    padding-top: 4px;
+    margin-top: 4px;
+}
+
+
+
+
+.compareForm .container table td {
+    width: 20%;
+}
+
+.compareForm .container table tr td:first-of-type {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.compareForm .container table tr td:not(:first-of-type) {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.compareForm .havTable .paramName.borderTop,
+.compareForm .havTable .paramValue.borderTop {
+    padding-top: 14px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+/*------------------------------------------------*/
+.compareForm .table-title {
+    color: #2D2D2D;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 4px;
+}
+
+.compareForm .table-subtitle {
+    color: #2D2D2D;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 4px;
+}
+
+.compareForm .table-subincTitle {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.compareForm .paramName,
+.compareForm .paramValue {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 4px;
+}
+
+.compareForm .paramName {
+    color: #2D2D2D;
+}
+
+.compareForm .paramValue {
+    color: #2D2D2D;
+}
+
+.compareForm .subParamName,
+.subParamValue {
+    color: #828282;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/*------------------------------------------------*/
+.offer-product-logo {
+    width: auto;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.compareForm .offerName {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.compareForm .priceFor {
+    color: #828282;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.compareForm .price {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.compareForm .perYear {
+    color: #2D2D2D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.compareForm .priceVariations {
+    color: #828282;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.compareForm .priceHalfYearly,
+.compareForm .priceQuaPriceQuarterly {
+    color: #2D2D2D;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.compareForm .milesPerYear {
+    color: #2D2D2D;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.compareForm .icon {
+    font-size: 14px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-allianz {
+    background-image: url(/content/source/new-source/logo-allianz.png);
+}
+
+.logo-cpp {
+    background-image: url(/content/source/new-source/logo-cpp.png);
+}
+
+.logo-direct {
+    background-image: url(/content/source/new-source/logo-direct.png);
+}
+
+.logo-generali {
+    background-image: url(/content/source/new-source/logo-generali.png);
+}
+
+.logo-gcp {
+    background-image: url(/content/source/new-source/logo-gcp.png);
+}
+
+.logo-hvp {
+    background-image: url(/content/source/new-source/logo-hvp.png);
+}
+
+.logo-kooperativa {
+    background-image: url(/content/source/new-source/logo-kooperativa.png);
+}
+
+.logo-pillow {
+    background-image: url(/content/source/new-source/logo-pillow.png);
+}
+
+.logo-slavia {
+    background-image: url(/content/source/new-source/logo-slavia.png);
+}
+
+.logo-uniqa {
+    background-image: url(/content/source/new-source/logo-uniqa.png);
+}
+
+.logo-csob {
+    background-image: url(/content/source/new-source/logo-csob.png);
+}
+
+.logo-axa {
+    background-image: url(/content/source/new-source/logo-axa.png);
+}
+
+.logo-union {
+    background-image: url(/content/source/new-source/logo-union.png);
+}
+
+.logo-pvzp {
+    background-image: url(/Content/Source/new-source/logo-pvzp.png);
+}
