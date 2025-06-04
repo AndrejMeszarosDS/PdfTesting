@@ -316,7 +316,7 @@ footer {
 }
 
 .logo-allianz {
-    background-image: "./assets/logo-allianz.png";
+    background-image: "/assets/logo-allianz.png";
 }
 
 .logo-cpp {
