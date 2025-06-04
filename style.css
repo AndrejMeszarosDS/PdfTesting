@@ -7,6 +7,23 @@ footer {
 }
 
 
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.eot');
+    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff') format('woff'), url('/Content/Poppins/fonts/poppins-v15-latin-ext_latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.eot');
+    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff') format('woff'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.ttf') format('truetype');
+}
 
 
 .compareForm-background {
