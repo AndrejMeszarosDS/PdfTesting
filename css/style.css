@@ -316,58 +316,57 @@ footer {
 }
 
 .logo-allianz {
-    background-image: "/assets/logo-allianz.png";
+    background-image: url("/assets/logo-allianz.png");
 }
 
 .logo-cpp {
-    background-image: "./assets/logo-cpp.png";
+    background-image: url("./assets//assets/logo-cpp.png");
 }
 
 .logo-direct {
-    background-image: "./assets/logo-direct.png";
+    background-image: url("./assets//assets/logo-direct.png");
 }
 
 .logo-generali {
-    background-image: "./assets/logo-generali.png";
+    background-image: url("./assets//assets/logo-generali.png");
 }
 
 .logo-gcp {
-    background-image: "./assets/logo-gcp.png";
+    background-image: url("./assets//assets/logo-gcp.png");
 }
 
 .logo-hvp {
-    background-image: "./assets/logo-hvp.png";
+    background-image: url("./assets//assets/logo-hvp.png");
 }
 
 .logo-kooperativa {
-    background-image: "./assets/logo-kooperativa.png";
+    background-image: url("./assets//assets/logo-kooperativa.png");
 }
 
 .logo-pillow {
-    background-image: "./assets/logo-pillow.png";
+    background-image: url("./assets//assets/logo-pillow.png");
 }
 
 .logo-slavia {
-    background-image: "./assets/logo-slavia.png";
+    background-image: url("./assets//assets/logo-slavia.png");
 }
 
 .logo-uniqa {
     background-image: url("../assets/logo-uniqa.png");
-
 }
 
 .logo-csob {
-    background-image: "./assets/logo-csob.png";
+    background-image: url("./assets//assets/logo-csob.png");
 }
 
 .logo-axa {
-    background-image: "./assets/logo-axa.png";
+    background-image: url("./assets//assets/logo-axa.png");
 }
 
 .logo-union {
-    background-image: "./assets/logo-union.png";
+    background-image: url("./assets//assets/logo-union.png");
 }
 
 .logo-pvzp {
-    background-image: "./assets/logo-pvzp.png";
+    background-image: url("./assets//assets/logo-pvzp.png");
 }
