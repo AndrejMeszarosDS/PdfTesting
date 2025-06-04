@@ -315,7 +315,7 @@ footer {
 }
 
 .logo-allianz {
-    background-image: url(/media/logo-allianz.png);
+    background-image: url(/assets/logo-allianz.png);
 }
 
 .logo-cpp {
@@ -351,7 +351,7 @@ footer {
 }
 
 .logo-uniqa {
-    background-image: url(media/logo-uniqa.png);
+    background-image: url(./assets/logo-uniqa.png);
 }
 
 .logo-csob {
