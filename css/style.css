@@ -352,7 +352,7 @@ footer {
 }
 
 .logo-uniqa {
-    background-image: "../assets/logo-uniqa.png";
+    background-image: url("../assets/logo-uniqa.png");
 
 }
 
