@@ -12,8 +12,8 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.eot');
-    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff') format('woff'), url('/Content/Poppins/fonts/poppins-v15-latin-ext_latin-regular.ttf') format('truetype');
+    src: url('css/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.eot');
+    src: url('css/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff') format('woff'), url('/Content/Poppins/fonts/poppins-v15-latin-ext_latin-regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -21,8 +21,8 @@ footer {
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.eot');
-    src: url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff') format('woff'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.ttf') format('truetype');
+    src: url('css/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.eot');
+    src: url('css/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff') format('woff'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.ttf') format('truetype');
 }
 
 
@@ -315,57 +315,57 @@ footer {
 }
 
 .logo-allianz {
-    background-image: url(/content/source/new-source/logo-allianz.png);
+    background-image: url(css/content/source/new-source/logo-allianz.png);
 }
 
 .logo-cpp {
-    background-image: url(/content/source/new-source/logo-cpp.png);
+    background-image: url(css/content/source/new-source/logo-cpp.png);
 }
 
 .logo-direct {
-    background-image: url(/content/source/new-source/logo-direct.png);
+    background-image: url(css/content/source/new-source/logo-direct.png);
 }
 
 .logo-generali {
-    background-image: url(/content/source/new-source/logo-generali.png);
+    background-image: url(css/content/source/new-source/logo-generali.png);
 }
 
 .logo-gcp {
-    background-image: url(/content/source/new-source/logo-gcp.png);
+    background-image: url(css/content/source/new-source/logo-gcp.png);
 }
 
 .logo-hvp {
-    background-image: url(/content/source/new-source/logo-hvp.png);
+    background-image: url(css/content/source/new-source/logo-hvp.png);
 }
 
 .logo-kooperativa {
-    background-image: url(/content/source/new-source/logo-kooperativa.png);
+    background-image: url(css/content/source/new-source/logo-kooperativa.png);
 }
 
 .logo-pillow {
-    background-image: url(/content/source/new-source/logo-pillow.png);
+    background-image: url(css/content/source/new-source/logo-pillow.png);
 }
 
 .logo-slavia {
-    background-image: url(/content/source/new-source/logo-slavia.png);
+    background-image: url(css/content/source/new-source/logo-slavia.png);
 }
 
 .logo-uniqa {
-    background-image: url(/content/source/new-source/logo-uniqa.png);
+    background-image: url(css/content/source/new-source/logo-uniqa.png);
 }
 
 .logo-csob {
-    background-image: url(/content/source/new-source/logo-csob.png);
+    background-image: url(css/content/source/new-source/logo-csob.png);
 }
 
 .logo-axa {
-    background-image: url(/content/source/new-source/logo-axa.png);
+    background-image: url(css/content/source/new-source/logo-axa.png);
 }
 
 .logo-union {
-    background-image: url(/content/source/new-source/logo-union.png);
+    background-image: url(css/content/source/new-source/logo-union.png);
 }
 
 .logo-pvzp {
-    background-image: url(/Content/Source/new-source/logo-pvzp.png);
+    background-image: url(css/Content/Source/new-source/logo-pvzp.png);
 }
