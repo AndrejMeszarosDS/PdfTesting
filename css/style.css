@@ -6,15 +6,15 @@ footer {
     display: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.eot');
-    src: url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff') format('woff'), url('/Content/Poppins/fonts/poppins-v15-latin-ext_latin-regular.ttf') format('truetype');
+    src: '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.eot');
+    src: '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff2') format('woff2'), '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-regular.woff') format('woff'), '/Content/Poppins/fonts/poppins-v15-latin-ext_latin-regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -22,8 +22,8 @@ footer {
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.eot');
-    src: url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), url('/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff') format('woff'), url('/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.ttf') format('truetype');
+    src: '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.eot');
+    src: '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff2') format('woff2'), '/css/content/fonts/Poppins/poppins-v15-latin-ext_latin-600.woff') format('woff'), '/Content/fonts/Poppins/poppins-v15-latin-ext_latin-600.ttf') format('truetype');
 }
 
 
@@ -316,57 +316,58 @@ footer {
 }
 
 .logo-allianz {
-    background-image: url(/assets/logo-allianz.png);
+    background-image: "./assets/logo-allianz.png";
 }
 
 .logo-cpp {
-    background-image: url(media/logo-cpp.png);
+    background-image: "./assets/logo-cpp.png";
 }
 
 .logo-direct {
-    background-image: url(media/logo-direct.png);
+    background-image: "./assets/logo-direct.png";
 }
 
 .logo-generali {
-    background-image: url(media/logo-generali.png);
+    background-image: "./assets/logo-generali.png";
 }
 
 .logo-gcp {
-    background-image: url(media/logo-gcp.png);
+    background-image: "./assets/logo-gcp.png";
 }
 
 .logo-hvp {
-    background-image: url(media/logo-hvp.png);
+    background-image: "./assets/logo-hvp.png";
 }
 
 .logo-kooperativa {
-    background-image: url(media/logo-kooperativa.png);
+    background-image: "./assets/logo-kooperativa.png";
 }
 
 .logo-pillow {
-    background-image: url(media/logo-pillow.png);
+    background-image: "./assets/logo-pillow.png";
 }
 
 .logo-slavia {
-    background-image: url(media/logo-slavia.png);
+    background-image: "./assets/logo-slavia.png";
 }
 
 .logo-uniqa {
-    background-image: url(./assets/logo-uniqa.png);
+    background-image: "./assets/logo-uniqa.png";
+
 }
 
 .logo-csob {
-    background-image: url(media/logo-csob.png);
+    background-image: "./assets/logo-csob.png";
 }
 
 .logo-axa {
-    background-image: url(media/logo-axa.png);
+    background-image: "./assets/logo-axa.png";
 }
 
 .logo-union {
-    background-image: url(media/logo-union.png);
+    background-image: "./assets/logo-union.png";
 }
 
 .logo-pvzp {
-    background-image: url(media/logo-pvzp.png);
+    background-image: "./assets/logo-pvzp.png";
 }
