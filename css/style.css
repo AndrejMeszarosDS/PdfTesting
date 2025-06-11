@@ -27,25 +27,30 @@ footer {
 }
 
 
+/********************************************  compare table  ***************************************************************/
+header,
+.bg-grey,
+footer {
+    display: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
 .compareForm-background {
     background-color: darkgray;
 }
 
-/*------------------------------------------------*/
 .compareForm {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    font-family: Poppins;
     background-color: white;
-    font-family: 'Poppins';
 }
 
-/*------------------------------------------------*/
 .compareForm .container {
     padding: 0;
 }
 
-/*------------------------------------------------*/
 .compareForm .container .header {
     display: flex;
     flex-direction: column;
@@ -97,67 +102,13 @@ footer {
     line-height: 24px;
 }
 
-/*------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
 .compareForm .container table {
     width: calc(100% + 24px);
     border-spacing: 12px 0;
     border-collapse: separate;
     margin-left: -12px;
 }
-
-.compareForm table:not(:last-of-type) {
-    padding-bottom: 16px;
-}
-
-.compareForm tr td:nth-child(even) {
-    background: var(--Brand-Light, #EDF8ED);
-}
-
-
-.compareForm td:nth-child(3) {
-    border-left: 1px solid #CACACA;
-    border-right: 1px solid #CACACA;
-}
-
-.compareForm tr:nth-child(1) td:nth-child(3) {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    border-top: 1px solid #CACACA;
-}
-
-.compareForm tr:nth-last-child(1) td:nth-child(3) {
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-bottom: 1px solid #CACACA;
-}
-
-
-
-
-.compareForm table tr:first-of-type td {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    padding-top: 8px;
-}
-
-.compareForm table tr:last-of-type td {
-    padding-bottom: 12px;
-}
-
-.compareForm tr:nth-last-child(1) td:nth-child(even) {
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-.compareForm .paramName.borderTop,
-.paramValue.borderTop {
-    border-top: 1px solid #CACACA;
-    padding-top: 4px;
-    margin-top: 4px;
-}
-
-
-
 
 .compareForm .container table td {
     width: 20%;
@@ -173,19 +124,135 @@ footer {
     padding-right: 8px;
 }
 
+.compareForm table:not(:last-of-type) {
+    padding-bottom: 16px;
+}
 
-.compareForm .havTable .paramName.borderTop,
-.compareForm .havTable .paramValue.borderTop {
-    padding-top: 14px;
-    margin-top: 14px;
+.compareForm tr td:nth-child(even) {
+    background: var(--Brand-Light, #EDF8ED);
+}
+
+.compareForm td:nth-child(3) {
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+}
+
+.compareForm table tbody:first-of-type tr:nth-child(1) td:nth-child(3) {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: 1px solid #CACACA;
+}
+
+.compareForm table tbody:last-of-type tr:nth-last-child(1) td:nth-child(3) {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom: 1px solid #CACACA;
+}
+
+.compareForm table tbody:first-of-type tr:first-of-type td {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 8px;
+}
+
+.compareForm table tbody:last-of-type tr:last-of-type td {
+    padding-bottom: 12px;
+}
+
+.compareForm table tbody:last-of-type tr:nth-last-child(1) td:nth-child(even) {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.compareForm .povTable .row-group:not(:last-of-type) tr:last-of-type td div {
+    border-bottom: 1px solid #CACACA;
+    padding-bottom: 4px;
+}
+
+.compareForm .povTable .row-group tr.row-subparam:nth-of-type(2) td div {
+    padding-top: 4px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramName,
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramValue {
+    border-bottom: 1px solid #CACACA;
+}
+
+.compareForm .havTable tbody tr:first-of-type .paramName,
+.compareForm .havTable tbody tr:first-of-type .paramValue {
+    padding-top: 10px;
+}
+
+.compareForm .havTable tbody tr:last-of-type .paramName,
+.compareForm .havTable tbody tr:last-of-type .paramValue {
+    padding-bottom: 10px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramName,
+.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramValue {
+    border-bottom: 1px solid #CACACA;
+}
+*/
+
+
+td {
+    position: relative;
 }
 
 
+.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramName::after,
+.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramValue::after {
+    content: "";
+    background: #CACACA;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+}
+
+.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramName::after {
+    left: 0px;
+    width: 100%;
+}
+
+.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramValue::after {
+    left: 8px;
+    width: calc(100% - 16px);
+}
 
 
+.compareForm .subincTable tbody tr:first-of-type .paramName,
+.compareForm .subincTable tbody tr:first-of-type .paramValue {
+    padding-top: 14px;
+}
 
+.compareForm .subincTable tbody tr:last-of-type .paramName,
+.compareForm .subincTable tbody tr:last-of-type .paramValue {
+    padding-bottom: 14px;
+}
 
-/*------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.row-group {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+td {
+    vertical-align: middle;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.compareForm .spaceHolder {
+    color: transparent;
+}
+
 .compareForm .table-title {
     color: #2D2D2D;
     font-size: 14px;
@@ -237,7 +304,7 @@ footer {
     line-height: 18px;
 }
 
-/*------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
 .offer-product-logo {
     width: auto;
     height: 30px;
