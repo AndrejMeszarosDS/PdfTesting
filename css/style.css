@@ -40,9 +40,8 @@ footer {
 }
 
 .compareForm {
-    max-width: 800px;
+    max-width: 760px;
     margin: auto;
-    padding: 20px;
     font-family: Poppins;
     background-color: white;
 }
@@ -104,10 +103,10 @@ footer {
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
 .compareForm .container table {
-    width: calc(100% + 24px);
+    width: calc(100% + 16px);
     border-spacing: 12px 0;
     border-collapse: separate;
-    margin-left: -12px;
+    margin-left: -8px;
 }
 
 .compareForm .container table td {
@@ -155,8 +154,18 @@ footer {
     padding-top: 8px;
 }
 
+.compareForm .havTable tbody:first-of-type tr:first-of-type td,
+.compareForm .subincTable tbody:first-of-type tr:first-of-type td {
+    padding-top: 0;
+}
+
 .compareForm table tbody:last-of-type tr:last-of-type td {
     padding-bottom: 12px;
+}
+
+.compareForm .havTable tbody:last-of-type tr:last-of-type td,
+.compareForm .subincTable tbody:last-of-type tr:last-of-type td {
+    padding-bottom: 0;
 }
 
 .compareForm table tbody:last-of-type tr:nth-last-child(1) td:nth-child(even) {
@@ -191,17 +200,9 @@ footer {
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
-/*.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramName,
-.compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramValue {
-    border-bottom: 1px solid #CACACA;
-}
-*/
-
-
 td {
     position: relative;
 }
-
 
 .compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramName::after,
 .compareForm .subincTable tbody:not(:last-of-type) tr:last-of-type .paramValue::after {
@@ -222,15 +223,14 @@ td {
     width: calc(100% - 16px);
 }
 
-
-.compareForm .subincTable tbody tr:first-of-type .paramName,
-.compareForm .subincTable tbody tr:first-of-type .paramValue {
-    padding-top: 14px;
+.compareForm .subincTable tr {
+    height: 50px;
+    vertical-align: middle;
 }
 
-.compareForm .subincTable tbody tr:last-of-type .paramName,
-.compareForm .subincTable tbody tr:last-of-type .paramValue {
-    padding-bottom: 14px;
+.compareForm .subincTable .paramName,
+.compareForm .subincTable .paramValue {
+    padding-top: 0;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
@@ -259,6 +259,7 @@ td {
     font-weight: 600;
     line-height: 22px;
     padding-top: 4px;
+    padding-left: 8px;
 }
 
 .compareForm .table-subtitle {
@@ -267,6 +268,7 @@ td {
     font-weight: 400;
     line-height: 18px;
     padding-bottom: 4px;
+    padding-left: 8px;
 }
 
 .compareForm .table-subincTitle {
@@ -275,6 +277,7 @@ td {
     font-weight: 600;
     line-height: 24px;
     padding-bottom: 20px;
+    padding-left: 8px;
 }
 
 .compareForm .paramName,
@@ -381,6 +384,7 @@ td {
     display: flex;
     align-items: center;
 }
+
 
 .logo-allianz {
     background-image: url("../assets/logo-allianz.png");
