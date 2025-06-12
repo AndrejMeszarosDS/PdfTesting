@@ -109,10 +109,6 @@ footer {
     margin-left: -8px;
 }
 
-.compareForm .container table td {
-    width: 30%;
-}
-
 .compareForm .container table tr td:first-of-type {
     padding-left: 4px;
     padding-right: 4px;
@@ -184,19 +180,28 @@ footer {
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
-.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramName,
-.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramValue {
-    border-bottom: 1px solid #CACACA;
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramName::after,
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramValue::after {
+    content: "";
+    background: #CACACA;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
 }
 
-.compareForm .havTable tbody tr:first-of-type .paramName,
-.compareForm .havTable tbody tr:first-of-type .paramValue {
-    padding-top: 10px;
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramName::after {
+    left: 0px;
+    width: 100%;
 }
 
-.compareForm .havTable tbody tr:last-of-type .paramName,
-.compareForm .havTable tbody tr:last-of-type .paramValue {
-    padding-bottom: 10px;
+.compareForm .havTable tbody:not(:last-of-type) tr:last-of-type .paramValue::after {
+    left: 8px;
+    width: calc(100% - 16px);
+}
+
+.compareForm .havTable tr {
+    height: 39px;
+    vertical-align: middle;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
